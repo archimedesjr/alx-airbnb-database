@@ -16,7 +16,7 @@ CREATE INDEX idx_user_id ON User(user_id);
 -- PROPERTIES TABLE
 CREATE TABLE Property (
     property_id UUID PRIMARY KEY,
-    host_id UUID NOT NULL
+    host_id UUID NOT NULL,
     name VARCHAR(100) NOT NULL,
     description TEXT NOT NULL,
     location VARCHAR(255) NOT NULL,
